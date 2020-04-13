@@ -10,6 +10,7 @@ class Play extends Phaser.Scene {
         this.load.image('starfield','./assets/starfield.png');
         this.load.spritesheet('explosion','./assets/explosion.png',{frameWidth: 64, frameHeight: 32, startFrame: 0, endFrame:9});
     }
+    
     create() {
         //place tile sprite
         this.starfield = this.add.tileSprite(0,0,640,480,'starfield').setOrigin(0,0);
