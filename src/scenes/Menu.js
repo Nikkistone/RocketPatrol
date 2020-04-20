@@ -59,11 +59,12 @@ create() {
             //hard difficulty
             game.settings = {
                 spaceshipSpeed: 4,
-                gameTimer: 45000
+                gameTimer: 35000
             }
             this.sound.play('sfx_select');
             this.scene.start("playScene");
         }
-    }
+
+        }
 
 }
