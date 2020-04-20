@@ -6,7 +6,7 @@ class Play extends Phaser.Scene {
     preload() {
         //load images/tile sprites
         this.load.audio('sfx_select', './assets/blip_select12.wav');
-        this.load.image('rocketp1', './assets/P1Rocket.png');
+        this.load.image('rocketp1', './assets/rocket.png');
         this.load.image('rocketp2','./assets/P2Rocket.png');
         this.load.spritesheet('redspaceship', './assets/spaceship_red.png', { frameWidth: 63, frameHeight: 32, startFrame: 0, endFrame: 2 });
         this.load.spritesheet('blackspaceship', './assets/spaceship_black.png', { frameWidth: 63, frameHeight: 32, startFrame: 0, endFrame: 2 });
